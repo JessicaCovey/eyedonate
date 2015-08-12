@@ -1,0 +1,145 @@
+.container
+  %nav.text-right.mt30.mb60
+    %a.gray-ft.caps{href: '#'} about
+    &nbsp;
+    %a.gray-ft.caps{href: '#'} donate 
+    &nbsp;
+    %a.gray-ft.caps{href: '#'} log in
+/ blank page after form is submitted 
+#firstPage.hidden 
+/ opening img    
+#land.mt30.mb60
+  .container
+    %h1.mt30.black-ft.center.caps.x5.roboto.bold EYE DONATE
+    %p.center.x2 eyewear donation that comes to you
+    .row
+      .col-sm-8.col-sm-offset-2       
+        %img.mt30.mb60.full-width(src="/images/eye1.jpg")
+/ about eyedonate
+#about.mt60.mb60
+  .container.white-bg
+    .row
+      .col-sm-8.col-sm-offset-2
+        %h3.mt30.mb60.blue-ft.center.caps.roboto.bold about us
+    .row.center
+      .col-sm-8.col-sm-offset-2
+        %p.x2 We accept quality glasses for children and adults  
+        %p.x2 Donations will be distriputed to those in need in the USA
+        %p.x2 We make prescription eyeglasses & sunglasses donation easy
+    .row.mt60.mb60
+      .col-sm-6.col-sm-offset-3       
+        %img.full-width(src="/images/g3.png")
+/ donating how it works       
+#donating.mt60.mb60
+  .container.white-bg        
+    .row.center
+      .col-sm-8.col-sm-offset-2 
+        %h3.mb60.blue-ft.center.caps.roboto.bold donating
+        %p.x2 Fill out our online donation form
+        %p.x2 We process your form and ship you a prepaid box and shipping label for your items
+        %p.x2 When you receive your donation box you can let us know your prescription if you have it but ok if you dont
+        %p.x2 Deposit your old glasses in the box and seal it with the provided prepaid shipping label 
+        %p.x2 Your donaton can be left in your mailbox for pick up or dropped at any USPS
+    .row.mt60.mb60
+      .col-sm-6.col-sm-offset-3    
+        %img.full-width(src="/images/g4.png")
+/ donation form
+#sign-up.mt60.mb60
+  .container
+    %h2.mb60.blue-ft.center.caps.roboto.bold sign up to donate 
+    %form#donation.fieldsetdisabled.m0
+      .row
+        .col-sm-6.col-sm-offset-3   
+          .form-group.m0
+            %label.caps.normal full name
+            %input.form-control.input-lg.mb30{type: 'text', name: 'name', placeholder: 'full name'}
+          .form-group.m0  
+            %label.caps.normal email
+            %input.form-control.input-lg.mb30{type: 'email', name: 'email', placeholder: 'name@example.com'} 
+          .form-group.m0
+            %label.caps.normal address
+            %input.form-control.input-lg.mb30{type: 'text', name: 'address', placeholder: '0000 Street Name, Apt 00'}
+          .form-group.m0
+            %label.caps.normal city
+            %input.form-control.input-lg.mb30{type: 'text', name: 'city', placeholder: 'City'}
+          .form-group.m0
+            %label.caps.normal state
+            %input.form-control.input-lg.mb30{type: 'text', name: 'state', placeholder: 'CT'}               
+          .form-group.m0
+            %label.caps.normal zip code
+            %input.form-control.input-lg.mb30{type: 'number', name: 'zipCode', placeholder: '00000'}     
+      .row.mt30.mb30
+        .col-sm-3.col-sm-offset-3
+          %h3.m0.roboto Prescription Glasses
+          %h6.m0.blue-ft Max 3 Glasses per donation
+        .col-sm-3  
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfGlasses', value: '0'} 0
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfGlasses', value: '1'} 1
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfGlasses', value: '2'} 2
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfGlasses', value: '3'} 3
+      .row.mt30.mb30
+        .col-sm-3.col-sm-offset-3
+          %h3.m0.roboto Prescription Glasses
+          %h6.m0.blue-ft Max 3 Sunglasses per donation
+        .col-sm-3  
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfSunglasses', value: '0'} 0
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfSunglasses', value: '1'} 1
+          .radio-inline
+            %label
+              %input{type: 'radio', name: 'numberOfSunglasses', value: '2'} 2
+          .radio-inline
+            %label 
+              %input{type: 'radio', name: 'numberOfSunglasses', value: '3'} 3
+      .row.mt60.mb60
+        .col-sm-3.col-sm-offset-3 
+          .form-group       
+            %button.btn.btn-info.btn-lg.mb60.x2.caps.roboto{type: 'submit', value: 'Submit'} submit form
+/ thank you after form is submitted            
+#thanksSection.hidden
+  .container
+    .row
+      .col-sm-6.col-sm-offset-3
+        %img.full-width(src='http://www.glynjones.co.uk/cs/Satellite?blobcol=urlimagefile&blobheader=image%2Fpng&blobheadername1=Content-Disposition&blobheadervalue1=inline%3B+filename%3DSplash-header_image.png&blobkey=id&blobtable=UXImage&blobwhere=1400567964362&ssbinary=true&moddate=2014-07-01%2004:13:53')  
+        %h3.mb60.black-ft.center
+          %span#message>
+          , you are awesome! 
+          %br Your donation box is on the way
+#footer.mt60.gray-bg.white-ft.arimo
+  .container
+    .row
+      .col-sm-8.col-sm-offset-2
+        .row
+          .col-sm-4
+            %h4.caps.bold.roboto promote
+            %a.white-ft{href: ""} tumbler
+            %br
+            %a.white-ft{href: ""} twitter
+            %br
+            %a.white-ft{href: ""} facebook
+          .col-sm-4.text-center
+            %h4.caps.bold.roboto contact
+            %p PO BOX 23 Los Angeles CA 90065
+            %a.white-ft{href: ""} contact@eyedonate.com
+            %br
+            %a.white-ft{href: "tel:+18005550199"} 1-800-555-0199
+          .col-sm-4.text-right
+            %h4.caps.bold.roboto news
+            %form
+              .form-group
+                %label.normal email
+                %br
+                %input.text-right{type: 'email', placeholder: 'name@example.com'}
+              .form-group
+                %button.btn.btn-info.btn-xs.roboto{type: 'submit', value: 'Submit'} SUBMIT
