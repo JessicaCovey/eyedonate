@@ -1,0 +1,118 @@
+/* line 1, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+body {
+  font-size: 12px;
+  color: #1c1c1c; }
+
+/* line 5, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+a,
+a:hover {
+  text-decoration: none;
+  font-weight: 600px;
+  color: #5bc0de; }
+
+/* line 16, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+#sign-up button {
+  width: 555px;
+  letter-spacing: 0.5px; }
+
+/* line 20, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+#footer {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+/* line 26, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.m0 {
+  margin: 0px; }
+
+/* line 29, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.mt30 {
+  margin-top: 30px; }
+
+/* line 32, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.mt60 {
+  margin-top: 60px; }
+
+/* line 35, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.mb30 {
+  margin-bottom: 30px; }
+
+/* line 38, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.mb60 {
+  margin-bottom: 60px; }
+
+/* line 44, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.gray-bg {
+  background-color: rgba(50, 48, 33, 0.27); }
+
+/* line 47, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.white-bg {
+  background-color: #fff; }
+
+/* line 53, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.black-ft {
+  color: #333; }
+
+/* line 56, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.gray-ft {
+  color: #555; }
+
+/* line 59, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.white-ft {
+  color: #fff; }
+
+/* line 62, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.blue-ft {
+  color: #5bc0de; }
+
+/* line 65, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.center {
+  text-align: center; }
+
+/* line 68, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.caps {
+  text-transform: uppercase; }
+
+/* line 74, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.x1 {
+  font-size: 1em; }
+
+/* line 77, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.x2 {
+  font-size: 2em; }
+
+/* line 80, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.x3 {
+  font-size: 3em; }
+
+/* line 83, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.x4 {
+  font-size: 4em; }
+
+/* line 86, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.x5 {
+  font-size: 5em; }
+
+/* line 90, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.arimo {
+  font-family: "Arimo", sans-serif; }
+
+/* line 93, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.lato {
+  font-family: "Lato", sans-serif; }
+
+/* line 96, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.roboto {
+  font-family: "Roboto Condensed", sans-serif; }
+
+/* line 99, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.bold {
+  font-weight: bold; }
+
+/* line 102, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.normal {
+  font-weight: normal; }
+
+/* line 109, /Users/jessicacovey/Code/eyedonate/source/stylesheets/all.css.sass */
+.full-width {
+  width: 100%; }
